@@ -99,6 +99,12 @@ public class TestIterator {
     double sum = 0;
     int n = 0;
     // TODO use an iterator and a while loop to compute the average (mean) of the values
+      final var i = list.iterator();
+      while (i.hasNext()) {
+          if (i.next() == sum) {
+              double mean = sum / n;
+          }
+      }
     // (defined as the sum of the items divided by the number of items)
     // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
     assertEquals(61.3, sum / n, 0.1);
