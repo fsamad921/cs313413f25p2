@@ -4,10 +4,10 @@ TestList.java and TestIterator.java
 
 	TODO also try with a LinkedList - does it make any difference?
 
-    For TestIterator.java, the setup() method, both ArrayList and LinkedList implement the List
-    interface, so the test results are the same. The difference is in performance: ArrayList is
-    faster for access by index, while LinkedList is better for insertions and removals
-    in the middle. For these small tests, there is no major difference.
+    Both ArrayList and LinkedList implement the List interface, so the test results are
+    the same. The difference is in performance: ArrayList is faster for access by index,
+    while LinkedList is better for insertions and removals in the middle. For these small
+    tests, there is no major difference.
 
 TestList.java
 
@@ -19,7 +19,7 @@ TestList.java
 
 		list.remove(Integer.valueOf(5)); // what does this one do?
 
-			It removes the first time the number "5" appears on the list.
+			It removes the first instance of the number "5" that appears on the list.
 
 TestIterator.java
 
