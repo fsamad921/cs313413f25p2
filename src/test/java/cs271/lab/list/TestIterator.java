@@ -89,25 +89,25 @@ public class TestIterator {
 
   @Test
   public void testAverageValues() {
-    list.add(33);
-    list.add(77);
-    list.add(44);
-    list.add(77);
-    list.add(55);
-    list.add(77);
-    list.add(66);
-    double sum = 0;
-    int n = 0;
-    // TODO use an iterator and a while loop to compute the average (mean) of the values
-      final var i = list.iterator();
+      list.add(33);
+      list.add(77);
+      list.add(44);
+      list.add(77);
+      list.add(55);
+      list.add(77);
+      list.add(66);
+      double sum = 0;
+      int n = 0;
+      // TODO use an iterator and a while loop to compute the average (mean) of the values
+      final var i = list.iterator(); // iterate through the list
       while (i.hasNext()) {
-          if (i.next() == sum) {
-              double mean = sum / n;
-          }
+          int val = i.next(); // Tally of each value present in list
+          sum += val; // Sum of total value
+          n++; // Increment n for each value in the list
       }
-    // (defined as the sum of the items divided by the number of items)
-    // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
-    assertEquals(61.3, sum / n, 0.1);
-    assertEquals(7, n);
+      // (defined as the sum of the items divided by the number of items)
+      // testNonempty shows how to use an iterator; use i.hasNext() in the while loop condition
+      assertEquals(61.3, sum / n, 0.1);
+      assertEquals(7, n);
   }
 }
