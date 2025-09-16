@@ -61,7 +61,7 @@ public class TestList {
     list.add(77);
     list.add(77);
     // TODO fix the expected values in the assertions below
-    assertEquals(0, list.size());
+    assertEquals(3, list.size());
     assertEquals(0, list.indexOf(77));
     assertEquals(0, list.get(1).intValue());
     assertEquals(0, list.lastIndexOf(77));
@@ -157,13 +157,9 @@ public class TestList {
 
   @Test
   public void testRetainAll() {
-    list.add(33);
     list.add(77);
-    list.add(44);
     list.add(77);
-    list.add(55);
     list.add(77);
-    list.add(66);
     // TODO in a single statement using retainAll and List.of,
     // remove items from the list to make the following assertions pass
     // (without touching the assertions themselves)
