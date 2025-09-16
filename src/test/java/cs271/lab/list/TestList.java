@@ -49,10 +49,8 @@ public class TestList {
   public void testContains() {
     // TODO write assertions using
       assertFalse(list.contains(77));
-
     list.add(77);
-
-    assertTrue(list.contains(77));
+      assertTrue(list.contains(77));
     // that hold before and after adding 77 to the list
   }
 
@@ -122,7 +120,8 @@ public class TestList {
     // TODO using containsAll and List.of (see above),
     // 1) assert that list contains all five different numbers added
     // 2) assert that list does not contain all of 11, 22, and 33
-    fail("Not yet implemented"); // remove this line when done
+      assertTrue(list.containsAll(List.of(33, 44, 55, 66, 77)));
+      assertFalse(list.containsAll(List.of(11, 22, 33)));
   }
 
   @Test
