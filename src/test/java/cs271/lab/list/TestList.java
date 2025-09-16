@@ -1,15 +1,13 @@
 package cs271.lab.list;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class TestList {
 
@@ -50,9 +48,12 @@ public class TestList {
   @Test
   public void testContains() {
     // TODO write assertions using
-    // list.contains(77)
+      assertFalse(list.contains(77));
+
+    list.add(77);
+
+    assertTrue(list.contains(77));
     // that hold before and after adding 77 to the list
-    fail("Not yet implemented"); // remove this line when done
   }
 
   @Test
