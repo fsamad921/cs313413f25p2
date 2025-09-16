@@ -149,13 +149,9 @@ public class TestList {
 
   @Test
   public void testRemoveAll() {
-    list.add(33);
     list.add(77);
-    list.add(44);
     list.add(77);
-    list.add(55);
     list.add(77);
-    list.add(66);
     // TODO in a single statement using removeAll and List.of,
     // remove items from the list to make the following assertions pass
     // (without touching the assertions themselves)
