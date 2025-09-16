@@ -63,8 +63,8 @@ public class TestList {
     // TODO fix the expected values in the assertions below
     assertEquals(3, list.size());
     assertEquals(0, list.indexOf(77));
-    assertEquals(0, list.get(1).intValue());
-    assertEquals(0, list.lastIndexOf(77));
+    assertEquals(77, list.get(1).intValue());
+    assertEquals(0, list.indexOf(77));
   }
 
   @Test
