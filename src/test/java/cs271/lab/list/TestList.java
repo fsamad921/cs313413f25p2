@@ -17,7 +17,8 @@ public class TestList {
 
   @Before
   public void setUp() throws Exception {
-    list = new ArrayList<Integer>();
+      list = new ArrayList<Integer>();
+      // list = new LinkedList<Integer>();
     // TODO Question: Also try with a LinkedList - does it make any difference?
   }
 
@@ -173,11 +174,11 @@ public class TestList {
   @Test
   public void testSet() {
     list.add(33);
-    list.add(77);
+    list.add(99); // fixed
     list.add(44);
-    list.add(77);
+    list.add(99); // fixed
     list.add(55);
-    list.add(77);
+    list.add(99); // fixed
     list.add(66);
     // TODO use the set method to change specific elements in the list
     // such that the following assertions pass
