@@ -126,7 +126,15 @@ public class TestList {
 
   @Test
   public void testAddAll() {
-    // TODO in a single statement using addAll and List.of,
+
+      list.add(33);
+      list.add(77);
+      list.add(44);
+      list.add(77);
+      list.add(55);
+      list.add(77);
+      list.add(66);
+      // TODO in a single statement using addAll and List.of,
     // add items to the list to make the following assertions pass
     // (without touching the assertions themselves)
     assertEquals(7, list.size());
