@@ -34,19 +34,20 @@ TestPerformance.java
 	State how many times the tests were executed for each SIZE (10, 100, 1000 and 10000)
 	to get the running time in milliseconds and how the test running times were recorded.
 
+    **(For each test I ran, I increased the reps by 1000000)**
 	SIZE 10
 								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  val1 val2 val3 val4 val5 val6  ... (fill these in in ms)
-        testLinkedListAddRemove: val1 val2 val3 val4 val5 val6
-		testArrayListAccess:     val1 val2 val3 val4 val5 val6
-        testLinkedListAccess:    val1 val2 val3 val4 val5 val6
+        testArrayListAddRemove:   18   29   39   51   63   73   ... (fill these in in ms)
+        testLinkedListAddRemove:  15   22   26   33   42   45
+		testArrayListAccess:       7   10   15   13   13   13
+        testLinkedListAccess:      8   12   16   15   20   23
 
 	SIZE 100
 								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  val1 val2 val3 val4 val5 val6  ... (fill these in in ms)
-        testLinkedListAddRemove: val1 val2 val3 val4 val5 val6
-		testArrayListAccess:     val1 val2 val3 val4 val5 val6
-        testLinkedListAccess:    val1 val2 val3 val4 val5 val6
+        testArrayListAddRemove:   26   46   67   84  104  123  ... (fill these in in ms)
+        testLinkedListAddRemove:  17   29   30   39   45   47
+		testArrayListAccess:       8   12   12   11   12   15
+        testLinkedListAccess:     20   35   39   55   67   76
 
 	SIZE 1000
 								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
