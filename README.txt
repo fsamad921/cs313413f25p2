@@ -65,8 +65,12 @@ TestPerformance.java
 
 	listAccess - which type of List is better to use, and why?
 
-		Your answer here.
+		Overall, using an ArrayList is better because as the size increases, the runtime of the
+		ArrayList stays consistent and performs at a faster speed compared to LinkedList. For LinkedList,
+		when I got to size 1000 or even 10000, it slowed down, and it took more time to process.
 
-	listAddRemove - which type of List is better to use, and why?
+	listAddRemove - Which type of List is better to use, and why?
 
-		Your answer here.
+		For this scenario, using a LinkedList is better for the same reason as the first question.
+		As the size and reps increased, the ArrayList was very slow and could not handle running it as
+		efficiently as LinkedList did. So in the end, LinkedList was better for this.
