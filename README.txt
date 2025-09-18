@@ -50,18 +50,18 @@ TestPerformance.java
         testLinkedListAccess:     20   35   39   55   67   76
 
 	SIZE 1000
-								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  val1 val2 val3 val4 val5 val6  ... (fill these in in ms)
-        testLinkedListAddRemove: val1 val2 val3 val4 val5 val6
-		testArrayListAccess:     val1 val2 val3 val4 val5 val6
-        testLinkedListAccess:    val1 val2 val3 val4 val5 val6
+								  #1   #2   #3    #4    #5    #6 	... (as many tests as you ran)
+        testArrayListAddRemove:  150  291  440   578   739   873    ... (fill these in in ms)
+        testLinkedListAddRemove:  17   27   28    36    47    49
+		testArrayListAccess:       9   12   10    13    17    12
+        testLinkedListAccess:    319  612  913  1210  1513  1806
 
 	SIZE 10000
-								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  val1 val2 val3 val4 val5 val6  ... (fill these in in ms)
-        testLinkedListAddRemove: val1 val2 val3 val4 val5 val6
-		testArrayListAccess:     val1 val2 val3 val4 val5 val6
-        testLinkedListAccess:    val1 val2 val3 val4 val5 val6
+								  #1    #2    #3    #4    #5    #6 	... (as many tests as you ran)
+        testArrayListAddRemove:  1474  2919  4419  5899  7326  8902  ... (fill these in in ms)
+        testLinkedListAddRemove:  15    25    28    40    44    45
+		testArrayListAccess:       8    10    11    11    11    13
+        testLinkedListAccess:    4247  8433 12679 16936 21234 25142
 
 	listAccess - which type of List is better to use, and why?
 
